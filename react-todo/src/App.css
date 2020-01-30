@@ -1,0 +1,25 @@
+.cont{
+  width: 100%;
+  display: flex;
+}
+.listbutton{
+  position: fixed;
+  left: 95%;
+}
+.list{
+  width:100%;
+  color: orange;
+  font-size: 30px;
+  background-color: black;
+}
+.search{
+  background-color: gray;
+  width: 160px;
+  height: 1500px;
+  color: white;
+}
+
+.searchbutton{
+  position: fixed;
+  top: 95%;
+}
