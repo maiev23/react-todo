@@ -18,7 +18,7 @@ const Search = (props) => {
             <div className='search'>
             <input value='검색'></input>
             <div>예정됨</div>
-            {props.data.map((i) => <Searchlist list={i} />)}
+            {props.data.map((i) => <Searchlist list={i}  />)}
             <div className='searchbutton'><button onClick={function(){props.button()}}>+</button>목록추가</div>
           </div>
     )
